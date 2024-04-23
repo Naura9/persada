@@ -1,0 +1,35 @@
+.nav-link:hover{
+    background-color: grey;
+}
+.display-4{
+    font-weight: bold;
+}
+.card-body-icon {
+    position: absolute;
+    z-index: 0;
+    top: 25px;
+    right: 4px;
+    opacity: 0.4;
+    font-size: 90px;
+}
+.card-title{
+    font-weight: bold;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    overflow: hidden; /* Mengatasi scroll bar di body */
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.content {
+    flex-grow: 1; /* Menyesuaikan tinggi konten utama */
+    overflow-y: auto; /* Munculkan scroll jika konten melebihi tinggi viewport */
+}
+
